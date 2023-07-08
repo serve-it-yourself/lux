@@ -10,8 +10,8 @@ A web library collection based on net/http.
 package main
 
 import (
-	"github.com/snowmerak/lux"
-	"github.com/snowmerak/lux/context"
+	"github.com/serve-it-yourself/lux"
+	"github.com/serve-it-yourself/lux/context"
 )
 
 func main() {
