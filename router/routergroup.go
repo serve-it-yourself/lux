@@ -4,10 +4,10 @@ import (
 	"github.com/rs/zerolog"
 	"strings"
 
-	"github.com/snowmerak/lux/context"
-	"github.com/snowmerak/lux/handler"
-	"github.com/snowmerak/lux/middleware"
-	"github.com/snowmerak/lux/swagger"
+	"github.com/serve-it-yourself/lux/context"
+	"github.com/serve-it-yourself/lux/handler"
+	"github.com/serve-it-yourself/lux/middleware"
+	"github.com/serve-it-yourself/lux/swagger"
 )
 
 type RouterGroup struct {

@@ -4,7 +4,7 @@ import (
 	ctx "context"
 	"encoding/json"
 	"github.com/rs/zerolog"
-	"github.com/snowmerak/lux/bean"
+	"github.com/serve-it-yourself/lux/bean"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -12,12 +12,12 @@ import (
 
 	"github.com/caddyserver/certmagic"
 	"github.com/julienschmidt/httprouter"
-	"github.com/snowmerak/lux/context"
-	"github.com/snowmerak/lux/handler"
-	"github.com/snowmerak/lux/middleware"
-	"github.com/snowmerak/lux/router"
-	"github.com/snowmerak/lux/session"
-	"github.com/snowmerak/lux/swagger"
+	"github.com/serve-it-yourself/lux/context"
+	"github.com/serve-it-yourself/lux/handler"
+	"github.com/serve-it-yourself/lux/middleware"
+	"github.com/serve-it-yourself/lux/router"
+	"github.com/serve-it-yourself/lux/session"
+	"github.com/serve-it-yourself/lux/swagger"
 	"golang.org/x/net/http2"
 )
 

@@ -3,12 +3,12 @@ package handler
 import (
 	ctx "context"
 	"github.com/rs/zerolog"
-	"github.com/snowmerak/lux/bean"
+	"github.com/serve-it-yourself/lux/bean"
 	"net/http"
 
 	"github.com/gobwas/ws"
 	"github.com/julienschmidt/httprouter"
-	"github.com/snowmerak/lux/context"
+	"github.com/serve-it-yourself/lux/context"
 )
 
 type Handler func(*context.LuxContext) error

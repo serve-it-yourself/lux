@@ -8,7 +8,7 @@ import (
 
 	"github.com/andybalholm/brotli"
 	"github.com/golang/snappy"
-	"github.com/snowmerak/lux/context"
+	"github.com/serve-it-yourself/lux/context"
 )
 
 var Snappy = Set{

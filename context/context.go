@@ -3,11 +3,11 @@ package context
 import (
 	"context"
 	"github.com/rs/zerolog"
-	"github.com/snowmerak/lux/bean"
+	"github.com/serve-it-yourself/lux/bean"
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/snowmerak/lux/session"
+	"github.com/serve-it-yourself/lux/session"
 )
 
 type Response struct {

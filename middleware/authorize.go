@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/snowmerak/lux/context"
+	"github.com/serve-it-yourself/lux/context"
 	"net/http"
 )
 
